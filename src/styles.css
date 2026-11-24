@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", "Segoe UI", sans-serif;
+  --font-display: "Fraunces", Georgia, serif;
+
+  --color-paper: #f6f1e8;
+  --color-paper-2: #efe6d8;
+  --color-ink: #1c1915;
+  --color-muted: #6e665c;
+  --color-line: #e3d8c8;
+  --color-card: #fffdf8;
+  --color-spruce: #1e5c45;
+  --color-spruce-fill: #1e5c45;
+  --color-spruce-ink: #f4faf6;
+  --color-spruce-soft: #e5f2eb;
+  --color-clay: #c4512c;
+  --color-clay-soft: #f8ece6;
+  --color-der: #1d4e89;
+  --color-die: #a61e36;
+  --color-das: #1d7a4a;
+}
+
+.dark {
+  --color-paper: #141311;
+  --color-paper-2: #221f1b;
+  --color-ink: #f4efe6;
+  --color-muted: #b7aea2;
+  --color-line: #332e28;
+  --color-card: #1c1916;
+  --color-spruce: #8fd4b4;
+  --color-spruce-fill: #1b6b4c;
+  --color-spruce-ink: #f3faf6;
+  --color-spruce-soft: #1a2c24;
+  --color-clay: #ef8b66;
+  --color-clay-soft: #3a241c;
+  --color-der: #9dc0ee;
+  --color-die: #f3a8b4;
+  --color-das: #93d6b0;
+}
+
+@layer base {
+  html {
+    font-size: 17px;
+  }
+  html[data-text="sm"] {
+    font-size: 15px;
+  }
+  html[data-text="lg"] {
+    font-size: 19px;
+  }
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    min-height: 100dvh;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  ::selection {
+    background: var(--color-spruce-soft);
+    color: var(--color-ink);
+  }
+}
+
+.timer-arc {
+  transition: stroke-dashoffset 0.2s linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .timer-arc {
+    transition: none;
+  }
+}

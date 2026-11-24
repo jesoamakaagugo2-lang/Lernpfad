@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lernpfad",
+      "hasCanvas": false,
+      "bodyTextLen": 33,
+      "bodyTextHash": "b3fb8885209cca95173fe3db9227f802e5f98bc617754fc894cbfebb96707f53",
+      "bodyTextPrefix": "Lernpfad Opening your study space",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lernpfad",
+      "hasCanvas": false,
+      "bodyTextLen": 357,
+      "bodyTextHash": "7fe25e2555a2800d52616016cf710fe1f31d1809b8be9df274d21beac003dc84",
+      "bodyTextPrefix": "Lernpfad A daily path from zero German to B1. Active recall, sho",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

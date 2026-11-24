@@ -1,0 +1,40 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Lernpfad",
+      "hasCanvas": false,
+      "bodyTextLen": 357,
+      "bodyTextHash": "7fe25e2555a2800d52616016cf710fe1f31d1809b8be9df274d21beac003dc84",
+      "bodyTextPrefix": "Lernpfad A daily path from zero German to B1. Active recall, sho",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Lernpfad",
+      "hasCanvas": false,
+      "bodyTextLen": 357,
+      "bodyTextHash": "7fe25e2555a2800d52616016cf710fe1f31d1809b8be9df274d21beac003dc84",
+      "bodyTextPrefix": "Lernpfad A daily path from zero German to B1. Active recall, sho",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-built.json",
+  "divergesFromBaseline": true,
+  "baselineReasons": [
+    "desktop: body text changed (33 -> 357 chars, hash mismatch)"
+  ]
+}
